@@ -247,7 +247,7 @@ export const guest = (() => {
         const data = new URLSearchParams({
             action: 'TEMPLATE',
             text: 'The Wedding of Fitri and Ishak',
-            dates: `${formatDate('2025-07-06 10:00')}/${formatDate('2025-07-06 15:00')}`,
+            dates: `${formatDate('2025-07-06 10:00')}/${formatDate('2025-07-06 11:00')}`,
             details: 'Tanpa mengurangi rasa hormat, kami mengundang Anda untuk berkenan menghadiri acara pernikahan kami. Terima kasih atas perhatian dan doa restu Anda, yang menjadi kebahagiaan serta kehormatan besar bagi kami.',
             location: 'Gedung Budaya Wangisagara Jl. Pasir Garut, RT.01/RW.09 Desa Wangisagara, Kec. Majalaya, Kab. Bandung, Jawa Barat 40382.',
             ctz: config.get('tz'),
